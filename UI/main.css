@@ -1,15 +1,8 @@
 body{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
-	line-height: 1.5;
+	font:15px, 1.5, "Helvetica",Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-}
-
-.container{
-	width: 80%;
-	margin: auto;
-	overflow:hidden;
+	width: 100%;
 }
 ul{
 	padding: 0;
@@ -19,11 +12,16 @@ ul{
 header{
 	background: #1565c0;
 	color: #ffffff;
-	padding-top: 20px;
 	min-height: 70px;
 	border-bottom: #1565c0 2px solid; 
+	padding-top:20px; 
+
 }
-/*link header */
+#logo{
+	float: left;
+	margin: auto;
+}
+
 header a{
 	color: #ffffff;
 	text-decoration: none;
@@ -33,37 +31,36 @@ header a{
 header li{
 	float: left;
 	display: inline;
-	padding: 0 20px 0 20px;
+	padding: 0 20px;
 }
-header #brand{
-	float: left;
-}
-header #brand h1{
-	margin: 0;
-} 
 
 header nav{
 	float: right;
-	margin-top: 10px;
+	margin-top:10px;
 }
-header .current a{
-	color: 
+#first{
+	background: #f1f1f1;
+	color:#1565c0;
+	min-height: 500px;
+	
 }
-#good{
-	background:url(images/bck2.jpg) no-repeat;
-	min-height: 700px;
-	width: 80%;
-	margin: auto;
-	padding-left:20%;
-	padding-top: 15px;
-	overflow:hidden;
-	color: #ffffff;
-	font-size: 20px;
+#innerbody{
+	float: left;
+	margin-right: 10%;
+	font-size: 30px;
+	line-height: 1.5;
+}
+#formbody{
+	padding:10px;
+	line-height: 2.0;
+
 
 }
+
 footer{
-		background: #1565c0;
+	background-color: #1565c0;
 	color: #ffffff;
-	height: 30%;
-
+	height:50px;
+	text-align: center;
+	padding: 10px;
 }
