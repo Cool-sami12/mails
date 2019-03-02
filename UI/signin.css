@@ -17,9 +17,19 @@ header{
 	padding-top:20px; 
 
 }
+header .active a{
+	background-color: #0d47a1;
+	color: inherit;
+}
 #logo{
 	float: left;
 	margin: auto;
+	padding-left: 30px;
+}
+header h1{
+	margin:0;
+	padding:0;
+	text-align: center;
 }
 
 header a{
@@ -38,25 +48,55 @@ header nav{
 	float: right;
 	margin-top:10px;
 }
+header a:hover{
+	color: #0d47a1;
+	font-weight: bold;
+}
+.body{
+	margin:auto;
+	width: 400px;
+	min-height: 200px;
+	border:2px #ffffff solid;
+	padding-left: 10px;
+	margin-top: 30px;
+
+}
+h3{ 
+	padding-left: 5px;
+	padding-top: 10px; 
+	margin: 0;
+	padding-bottom: 30px;
+}
 #first{
 	background: #f1f1f1;
 	color:#1565c0;
 	min-height: 500px;
-	
-}
-#innerbody{
-	float: left;
-	margin-right: 10%;
-	font-size: 30px;
-	line-height: 1.5;
-}
-#formbody{
-	padding:10px;
-	line-height: 2.0;
-
+	font-size: 20px;
 
 }
+#txtemail{
+	width: 250px;
+	min-height: 10px;
+	margin-left: 38px;
+}
+#txtpass{
+	width: 250px;
+	min-height: 10px;
+	margin-left: 10px;
+}
+#btn{
+	color: #1565c0;
 
+}
+.msg{
+	padding-left: 5px;
+	padding-bottom: 20px;
+
+}
+.pass{
+	padding-left: 5px;
+	padding-bottom: 20px;
+}
 footer{
 	background-color: #1565c0;
 	color: #ffffff;
