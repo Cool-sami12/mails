@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width-device-width">
 	<title>Samuel Email App</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="home.js" ></script>
 </head>
 <body>
 	<header>
@@ -28,23 +29,23 @@
 					<h1>Register</h1>
 					<div>
 					<label for "firstname"> FirstName: </label>
-					<input id="fname" type="text" name="firstname" placeholder="Enter Your First Name">
+					<input id="fname" type="text" name="firstname" placeholder="Enter Your First Name" required>
 					</div>
 					<div>
 					<label> LastName: </label>
-					<input id="lname" type="text" name="lastname" placeholder="Enter Your Last Name">
+					<input id="lname" type="text" name="lastname" placeholder="Enter Your Last Name" required>
 					</div>
 					<div>
 					<label>
 					Email: </label>
-					<input id="em" type="email" name="email" placeholder="Enter Your Email">
+					<input id="em" type="email" name="email" placeholder="Enter Your Email" required>
 					</div>
 					<div>
 					<label>
 					Password: </label>
-					<input id="pass" type="password" name="password">
+					<input id="pass" type="password" name="password" required>
 					</div>
-					<div><button type="submit">Sign Up</button></div>
+					<div><button onclick="checkform()">Sign Up</button></div>
 		</div>
 		
 	</div>
