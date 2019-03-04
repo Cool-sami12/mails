@@ -20,6 +20,12 @@ header{
 #logo{
 	float: left;
 	margin: auto;
+	padding-left: 30px;
+}
+header h1{
+	margin:0;
+	padding:0;
+	text-align: center;
 }
 
 header a{
@@ -38,25 +44,45 @@ header nav{
 	float: right;
 	margin-top:10px;
 }
+h2, h1{
+	margin:0;
+}
+.par{
+	padding-left: 30px;
+}
+button{
+	color: #1565c0; 
+}
+
 #first{
 	background: #f1f1f1;
 	color:#1565c0;
 	min-height: 500px;
-	
+
 }
 #innerbody{
 	float: left;
 	margin-right: 10%;
 	font-size: 30px;
 	line-height: 1.5;
+	margin-left: 20px;
+}
+#fname, #lname{
+	width: 200px;
+	margin-left: 30px;
+}
+#em{
+	width: 200px;
+	margin-left: 55px;
+}
+#pass{
+	width: 200px;
+	margin-left: 35px;
 }
 #formbody{
 	padding:10px;
 	line-height: 2.0;
-
-
 }
-
 footer{
 	background-color: #1565c0;
 	color: #ffffff;
