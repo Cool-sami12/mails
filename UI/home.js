@@ -1,0 +1,3 @@
+function checkform(){
+	var lname= 
+}
